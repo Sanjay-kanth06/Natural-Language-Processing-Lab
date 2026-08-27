@@ -1,0 +1,57 @@
+Experiment No. 7 - N-Gram and HMM Language Models
+
+Input:
+Enter a tweet: I love learning NLP and I love Python
+
+Output:
+Tokens:
+['i', 'love', 'learning', 'nlp', 'and', 'i', 'love', 'python']
+
+========== N-GRAM MODEL ==========
+
+Unigrams:
+[('i',), ('love',), ('learning',), ('nlp',), ('and',), ('i',), ('love',), ('python',)]
+
+Bigrams:
+[('i', 'love'), ('love', 'learning'), ('learning', 'nlp'),
+ ('nlp', 'and'), ('and', 'i'), ('i', 'love'), ('love', 'python')]
+
+Trigrams:
+[('i', 'love', 'learning'), ('love', 'learning', 'nlp'),
+ ('learning', 'nlp', 'and'), ('nlp', 'and', 'i'),
+ ('and', 'i', 'love'), ('i', 'love', 'python')]
+
+Word Frequencies:
+i : 2
+love : 2
+learning : 1
+nlp : 1
+and : 1
+python : 1
+
+========== HMM MODEL ==========
+
+HMM POS Tagging:
+i -> PRP
+love -> VBP
+learning -> VBG
+nlp -> NN
+and -> CC
+i -> PRP
+love -> VBP
+python -> NN
+
+========== COMPARISON ==========
+
+N-Gram Model
+- Learns word sequences.
+- Predicts the next word based on previous words.
+- Used for text generation and language modeling.
+
+HMM Model
+- Predicts Part-of-Speech (POS) tags.
+- Uses transition and emission probabilities.
+- Used for sequence labeling tasks.
+
+Result:
+N-Gram and HMM language models were implemented successfully and their outputs were compared.

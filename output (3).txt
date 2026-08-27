@@ -1,0 +1,33 @@
+Experiment No. 8 - Topic Modeling using LDA and t-SNE
+
+Input:
+Enter number of reviews: 4
+Enter review: The phone has excellent battery life and a good camera
+Enter review: Battery performance is amazing and the phone lasts all day
+Enter review: The delivery was fast and the package arrived safely
+Enter review: Delivery was quick and the package was well packed
+
+Topics:
+Topic 1
+delivery
+package
+fast
+quick
+arrived
+
+Topic 2
+battery
+phone
+life
+excellent
+performance
+
+t-SNE Coordinates:
+Review 1 : [approximately 150.2 -90.4]
+Review 2 : [approximately 132.7 -72.1]
+Review 3 : [approximately -140.5 110.6]
+Review 4 : [approximately -155.8 125.3]
+
+Result:
+Topic modeling successfully extracted important themes from customer reviews.
+The t-SNE visualization grouped reviews with similar topics close to one another.

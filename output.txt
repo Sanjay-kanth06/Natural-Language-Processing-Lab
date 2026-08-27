@@ -1,0 +1,33 @@
+Experiment No. 9 - Rule-Based Classifier vs Maximum Entropy
+
+Input:
+Enter number of documents: 6
+
+Document 1: This contract defines the terms of employment
+Category: contract
+
+Document 2: The contract was signed by both parties
+Category: contract
+
+Document 3: The court issued a judgment in the case
+Category: judgment
+
+Document 4: The judgment was delivered by the judge
+Category: judgment
+
+Document 5: This agreement is between the buyer and seller
+Category: agreement
+
+Document 6: The agreement contains payment terms
+Category: agreement
+
+Output:
+Rule-Based Predictions: ['contract', 'contract', 'judgment', 'judgment', 'agreement', 'agreement']
+Maximum Entropy Predictions: ['contract', 'contract', 'judgment', 'judgment', 'agreement', 'agreement']
+
+Rule-Based Accuracy: 1.0
+Maximum Entropy Accuracy: 1.0
+
+Result:
+Legal documents were successfully classified using Rule-Based and Maximum Entropy classifiers.
+The classification accuracies were calculated and compared.

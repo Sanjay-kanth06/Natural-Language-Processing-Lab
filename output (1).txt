@@ -1,0 +1,65 @@
+Experiment No. 10 - Word and Phrase-Based Clustering
+
+Input:
+Enter number of posts: 6
+
+Post 1: The phone camera quality is excellent
+Post 2: I love the new smartphone camera
+Post 3: The battery life is amazing
+Post 4: Battery performance is very good
+Post 5: Delivery was fast and package arrived early
+Post 6: The product delivery was quick
+
+Enter number of clusters: 3
+
+Output:
+Cluster Results:
+
+Post: The phone camera quality is excellent
+Cluster: 2
+
+Post: I love the new smartphone camera
+Cluster: 2
+
+Post: The battery life is amazing
+Cluster: 0
+
+Post: Battery performance is very good
+Cluster: 0
+
+Post: Delivery was fast and package arrived early
+Cluster: 1
+
+Post: The product delivery was quick
+Cluster: 1
+
+Important Keywords:
+
+Cluster 0
+battery
+battery life
+performance
+good
+amazing
+
+Cluster 1
+delivery
+quick
+fast
+package
+product
+
+Cluster 2
+camera
+smartphone
+phone
+quality
+excellent
+
+Marketing Insight:
+Similar customer opinions are grouped together.
+Clusters help identify product trends and issues.
+
+Result:
+Social media posts were successfully clustered using TF-IDF and K-Means.
+The clusters revealed customer interests, trends, and marketing opportunities.
